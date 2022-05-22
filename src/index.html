@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.muicss.com/mui-latest/css/mui.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+    <title>IDEAS FOR SYNCER-BOT</title>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div class="mui--text-white mui--text-display1 mui--align-vertical">
+        IDEAS FOR SYNCER-BOT
+      </div>
+    </div>
+    <div id="content" class="mui-container-fluid">
+      <div class="mui-row">
+        <div class="mui-col-sm-10 mui-col-sm-offset-1">
+          <br />
+          <br />
+          <div class="mui--text-black-54 mui--text-body2">WRITE YOUR IDEA</div>
+          <div class="mui-divider"></div>
+          <br />
+          <!-- form -->
+          <form class="mui-form" id="form">
+            <div class="mui-textfield">
+              <input
+                id="idea-input"
+                type="text"
+                placeholder="I want to ask about ..."
+                required
+                minlength="10"
+                maxlength="256"
+              />
+            </div>
+            <button
+              type="submit"
+              id="submit"
+              disabled="true"
+              class="mui-btn mui-btn--raised mui-btn--primary"
+            >
+              WRITE YOUR IDEA
+            </button>
+          </form>
+
+          <br />
+          <br />
+          <div class="mui--text-black-54 mui--text-body2">YOUR PAST IDEAS</div>
+          <div class="mui-divider"></div>
+          <br />
+          <br />
+          <div id="list"></div>
+
+          <div class="mui--text-black-54">
+            By <a href="#">Team MUI</a> 3 weeks ago
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            facilisis aliquam ipsum sed dignissim. Sed ac accumsan odio. Vivamus
+            tristique dignissim neque. Interdum et malesuada fames ac ante ipsum
+            primis in faucibus. Nunc cursus felis nec purus condimentum
+            vestibulum. Donec mauris nisi, sollicitudin eget iaculis id,
+            suscipit id odio. <a href="#">Read more...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
